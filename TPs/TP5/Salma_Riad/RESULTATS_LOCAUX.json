@@ -1,0 +1,46 @@
+{
+  "v1": {
+    "md5": "b7fec4274774842dc1f48202c6013490",
+    "rows": 5000,
+    "n_train": 4000,
+    "runs": {
+      "standard": {
+        "recall": 0.574,
+        "precision": 0.736,
+        "accuracy": 0.914
+      },
+      "C001": {
+        "recall": 0.397,
+        "precision": 0.885,
+        "accuracy": 0.911
+      },
+      "threshold02": {
+        "recall": 0.838,
+        "precision": 0.543,
+        "accuracy": 0.882
+      },
+      "forest": {
+        "recall": 0.544,
+        "precision": 0.679,
+        "accuracy": 0.903
+      },
+      "threshold03": {
+        "recall": 0.75,
+        "precision": 0.622,
+        "accuracy": 0.904
+      }
+    }
+  },
+  "v2": {
+    "md5": "31ef5ebb63ef2331a31dfe009ef8796a",
+    "rows": 8000,
+    "n_train": 6400,
+    "runs": {
+      "standard": {
+        "recall": 0.58,
+        "precision": 0.773,
+        "accuracy": 0.924
+      }
+    }
+  }
+}
