@@ -1,0 +1,16 @@
+# Éléments locaux, volumineux ou sensibles exclus de l'image
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.git/
+dist/
+build/
+*.egg-info/
+tests/
+data/
+models/
+.env
+mlflow.db
+mlruns/
+.dvc/
